@@ -1,0 +1,7 @@
+pyspark==4.2.0
+pandas==2.3.3
+numpy==2.4.3
+pyarrow==26.0.0
+matplotlib==3.10.8
+pymongo==4.19.0
+ipykernel==7.2.0
