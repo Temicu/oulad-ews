@@ -1,0 +1,202 @@
+id_student,module,presentation,cutoff_day,split,risk_score,flagged,actual_at_risk,theme_engagement,theme_assessments,theme_background,theme_course,reasons
+396872,AAA,2013J,28,train,0.3325,False,0,0.267,-0.266,-0.131,-0.316,"engagement: 184 clicks over 8 active days (typical student: 358 clicks, 15 days)"
+2551220,AAA,2013J,28,test,0.1457,False,0,-0.44,-0.559,-0.202,-0.316,
+85092,AAA,2014J,28,test,0.6559,True,0,0.549,0.552,0.112,-0.316,"assessments: 1 of 1 assessments submitted, 1 late (typical student: 0.9 submitted) | engagement: 149 clicks over 5 active days (typical student: 358 clicks, 15 days)"
+593846,AAA,2014J,28,train,0.166,False,1,-0.211,-0.35000000000000003,-0.486,-0.316,
+614059,CCC,2014B,28,train,0.7491,True,0,0.064,1.612,-0.491,0.161,"assessments: 0 of 1 assessments submitted, 0 late (typical student: 0.9 submitted) | engagement: 136 clicks over 14 active days (typical student: 358 clicks, 15 days)"
+654817,CCC,2014J,28,train,0.2721,False,0,-0.033,0.133,-0.994,0.161,"assessments: 1 of 1 assessments submitted, 1 late (typical student: 0.9 submitted)"
+259750,DDD,2013B,28,test,0.9774,True,1,0.6880000000000001,2.691,0.079,0.562,"assessments: 0 of 2 assessments submitted, 0 late (typical student: 0.9 submitted) | engagement: 38 clicks over 4 active days (typical student: 358 clicks, 15 days)"
+495734,DDD,2013B,28,train,0.38070000000000004,True,0,-0.036000000000000004,-0.21,-0.551,0.562,
+644956,DDD,2014J,28,train,0.4707,True,0,-0.27,-0.8310000000000001,0.673,0.562,
+1855583,DDD,2014J,28,train,0.32280000000000003,False,0,-0.107,-0.622,-0.322,0.562,
+1762336,EEE,2013J,28,train,0.2358,False,1,-0.637,0.533,-0.252,-0.5680000000000001,"assessments: 0 of 0 assessments submitted, 0 late (typical student: 0.9 submitted)"
+609868,FFF,2014B,28,train,0.776,True,1,0.667,-0.58,0.774,0.632,"engagement: 437 clicks over 8 active days (typical student: 358 clicks, 15 days)"
+358966,GGG,2014J,28,train,0.29860000000000003,False,0,-0.099,0.533,0.28500000000000003,-1.322,"assessments: 0 of 0 assessments submitted, 0 late (typical student: 0.9 submitted)"
+677022,GGG,2014J,28,train,0.313,False,1,0.553,0.533,-0.299,-1.322,"engagement: 56 clicks over 6 active days (typical student: 358 clicks, 15 days) | assessments: 0 of 0 assessments submitted, 0 late (typical student: 0.9 submitted)"
+692256,GGG,2014J,28,test,0.44720000000000004,True,0,0.455,0.533,0.373,-1.322,"assessments: 0 of 0 assessments submitted, 0 late (typical student: 0.9 submitted) | engagement: 44 clicks over 8 active days (typical student: 358 clicks, 15 days)"
+198956,BBB,2013B,28,test,0.17500000000000002,False,0,-0.17400000000000002,-0.81,0.137,-0.453,
+444408,BBB,2013B,28,train,0.5582,True,1,0.431,-0.705,1.212,-0.453,"engagement: 223 clicks over 10 active days (typical student: 358 clicks, 15 days)"
+405945,BBB,2013J,28,test,0.5702,True,0,0.5690000000000001,-0.036000000000000004,0.453,-0.453,"engagement: 190 clicks over 7 active days (typical student: 358 clicks, 15 days)"
+620694,BBB,2014B,28,train,0.38830000000000003,True,0,0.524,-0.41200000000000003,0.138,-0.453,"engagement: 30 clicks over 7 active days (typical student: 358 clicks, 15 days)"
+358204,BBB,2014J,28,train,0.39540000000000003,True,0,-1.311,1.032,0.559,-0.453,"assessments: 1 of 1 assessments submitted, 0 late (typical student: 0.9 submitted)"
+684467,BBB,2014J,28,train,0.8722000000000001,True,1,0.901,1.612,0.112,-0.453,"assessments: 0 of 1 assessments submitted, 0 late (typical student: 0.9 submitted) | engagement: 0 clicks over 0 active days (typical student: 358 clicks, 15 days)"
+576191,CCC,2014B,28,train,0.7934,True,1,0.577,0.719,0.139,0.161,"assessments: 1 of 1 assessments submitted, 1 late (typical student: 0.9 submitted) | engagement: 73 clicks over 5 active days (typical student: 358 clicks, 15 days)"
+612814,CCC,2014B,28,test,0.3804,True,0,0.022,-0.22,-0.199,0.161,"engagement: 371 clicks over 14 active days (typical student: 358 clicks, 15 days)"
+475065,CCC,2014J,28,train,0.1436,False,0,-1.191,0.133,-0.638,0.161,"assessments: 1 of 1 assessments submitted, 1 late (typical student: 0.9 submitted)"
+1561750,CCC,2014J,28,train,0.8442000000000001,True,1,0.139,0.594,1.048,0.161,"assessments: 1 of 1 assessments submitted, 1 late (typical student: 0.9 submitted) | engagement: 209 clicks over 12 active days (typical student: 358 clicks, 15 days)"
+576750,EEE,2013J,28,train,0.1068,False,0,-0.982,0.533,-0.856,-0.5680000000000001,"assessments: 0 of 0 assessments submitted, 0 late (typical student: 0.9 submitted)"
+582768,EEE,2013J,28,train,0.5324,True,1,0.39,0.533,0.026000000000000002,-0.5680000000000001,"assessments: 0 of 0 assessments submitted, 0 late (typical student: 0.9 submitted) | engagement: 21 clicks over 9 active days (typical student: 358 clicks, 15 days)"
+625067,EEE,2014B,28,train,0.2076,False,0,-0.368,0.533,-0.685,-0.5680000000000001,"assessments: 0 of 0 assessments submitted, 0 late (typical student: 0.9 submitted)"
+107028,FFF,2013J,28,train,0.6603,True,1,0.338,-0.609,0.555,0.632,"engagement: 241 clicks over 10 active days (typical student: 358 clicks, 15 days)"
+611396,FFF,2013J,28,train,0.39680000000000004,True,0,-0.54,-0.245,-0.015,0.632,
+634061,GGG,2014B,28,train,0.2733,False,0,0.504,0.533,-0.442,-1.322,"assessments: 0 of 0 assessments submitted, 0 late (typical student: 0.9 submitted) | engagement: 85 clicks over 7 active days (typical student: 358 clicks, 15 days)"
+646572,GGG,2014J,28,train,0.2359,False,0,-0.41400000000000003,0.533,0.279,-1.322,"assessments: 0 of 0 assessments submitted, 0 late (typical student: 0.9 submitted)"
+679258,GGG,2014J,28,train,0.6353,True,1,0.903,0.533,0.6920000000000001,-1.322,"engagement: 0 clicks over 0 active days (typical student: 358 clicks, 15 days) | assessments: 0 of 0 assessments submitted, 0 late (typical student: 0.9 submitted)"
+2606765,GGG,2014J,28,train,0.4325,True,0,0.9,0.533,-0.132,-1.322,"engagement: 0 clicks over 0 active days (typical student: 358 clicks, 15 days) | assessments: 0 of 0 assessments submitted, 0 late (typical student: 0.9 submitted)"
+229361,AAA,2013J,28,train,0.12350000000000001,False,0,-0.434,-0.643,-0.316,-0.316,
+561640,BBB,2013J,28,test,0.1865,False,0,0.523,-0.685,-0.607,-0.453,"engagement: 167 clicks over 8 active days (typical student: 358 clicks, 15 days)"
+88340,BBB,2014B,28,train,0.5495,True,1,0.368,-0.266,0.8,-0.453,"engagement: 119 clicks over 10 active days (typical student: 358 clicks, 15 days)"
+688144,BBB,2014J,28,train,0.5869,True,1,0.839,-0.327,0.543,-0.453,"engagement: 2 clicks over 1 active days (typical student: 358 clicks, 15 days)"
+621380,CCC,2014J,28,train,0.5664,True,1,0.387,-0.327,0.298,0.161,"engagement: 151 clicks over 7 active days (typical student: 358 clicks, 15 days)"
+532718,DDD,2013B,28,test,0.32980000000000004,False,0,-0.047,-0.775,-0.198,0.562,
+549334,DDD,2013B,28,train,0.9884000000000001,True,1,0.902,2.691,0.546,0.562,"assessments: 0 of 2 assessments submitted, 0 late (typical student: 0.9 submitted) | engagement: 0 clicks over 0 active days (typical student: 358 clicks, 15 days)"
+555408,DDD,2013B,28,test,0.48040000000000005,True,1,0.421,-0.231,-0.579,0.562,"engagement: 98 clicks over 8 active days (typical student: 358 clicks, 15 days)"
+597459,EEE,2013J,28,train,0.1998,False,0,-0.603,0.533,-0.497,-0.5680000000000001,"assessments: 0 of 0 assessments submitted, 0 late (typical student: 0.9 submitted)"
+634721,EEE,2014J,28,test,0.38720000000000004,True,0,0.015,0.533,-0.188,-0.5680000000000001,"assessments: 0 of 0 assessments submitted, 0 late (typical student: 0.9 submitted) | engagement: 230 clicks over 11 active days (typical student: 358 clicks, 15 days)"
+680267,EEE,2014J,28,train,0.4418,True,0,0.23,0.533,-0.177,-0.5680000000000001,"assessments: 0 of 0 assessments submitted, 0 late (typical student: 0.9 submitted) | engagement: 157 clicks over 10 active days (typical student: 358 clicks, 15 days)"
+614059,FFF,2014B,28,train,0.8785000000000001,True,1,0.47700000000000004,1.612,-0.491,0.632,"assessments: 0 of 1 assessments submitted, 0 late (typical student: 0.9 submitted) | engagement: 66 clicks over 9 active days (typical student: 358 clicks, 15 days)"
+168936,AAA,2013J,28,test,0.38220000000000004,True,0,0.188,-0.538,0.438,-0.316,"engagement: 272 clicks over 10 active days (typical student: 358 clicks, 15 days)"
+258392,AAA,2013J,28,train,0.39780000000000004,True,0,0.04,-0.161,0.275,-0.316,"engagement: 249 clicks over 13 active days (typical student: 358 clicks, 15 days)"
+334259,AAA,2013J,28,test,0.3289,False,1,0.148,-0.14,-0.153,-0.316,"engagement: 243 clicks over 11 active days (typical student: 358 clicks, 15 days)"
+287040,AAA,2014J,28,train,0.1264,False,0,-0.5720000000000001,-0.41200000000000003,-0.382,-0.316,
+353665,AAA,2014J,28,test,0.1928,False,0,0.279,-0.517,-0.626,-0.316,"engagement: 99 clicks over 11 active days (typical student: 358 clicks, 15 days)"
+311042,BBB,2013B,28,train,0.7596,True,1,0.507,-0.308,1.655,-0.453,"engagement: 57 clicks over 7 active days (typical student: 358 clicks, 15 days)"
+558444,CCC,2014B,28,train,0.9563,True,1,0.846,1.612,0.718,0.161,"assessments: 0 of 1 assessments submitted, 0 late (typical student: 0.9 submitted) | engagement: 1 clicks over 1 active days (typical student: 358 clicks, 15 days)"
+572401,CCC,2014B,28,train,0.8362,True,1,0.616,1.138,-0.034,0.161,"assessments: 1 of 1 assessments submitted, 1 late (typical student: 0.9 submitted) | engagement: 61 clicks over 5 active days (typical student: 358 clicks, 15 days)"
+645174,CCC,2014J,28,test,0.49410000000000004,True,0,0.442,0.364,-0.739,0.161,"engagement: 111 clicks over 8 active days (typical student: 358 clicks, 15 days) | assessments: 1 of 1 assessments submitted, 1 late (typical student: 0.9 submitted)"
+503100,DDD,2013B,28,test,0.9516,True,1,0.595,1.861,0.213,0.562,"assessments: 1 of 2 assessments submitted, 1 late (typical student: 0.9 submitted) | engagement: 73 clicks over 6 active days (typical student: 358 clicks, 15 days)"
+569935,DDD,2013J,28,train,0.1777,False,0,-0.705,-0.705,-0.432,0.562,
+605759,DDD,2014J,28,train,0.2902,False,0,-1.1,-0.203,0.099,0.562,
+566201,EEE,2013J,28,test,0.2741,False,0,-1.203,0.533,0.516,-0.5680000000000001,"assessments: 0 of 0 assessments submitted, 0 late (typical student: 0.9 submitted)"
+587122,EEE,2014J,28,train,0.5583,True,1,0.675,-0.15,0.528,-0.5680000000000001,"engagement: 10 clicks over 4 active days (typical student: 358 clicks, 15 days)"
+651635,EEE,2014J,28,train,0.1668,False,0,-0.924,0.533,-0.398,-0.5680000000000001,"assessments: 0 of 0 assessments submitted, 0 late (typical student: 0.9 submitted)"
+544880,FFF,2013B,28,train,0.6419,True,1,0.663,-0.705,0.245,0.632,"engagement: 290 clicks over 12 active days (typical student: 358 clicks, 15 days)"
+400266,FFF,2013J,28,test,0.7509,True,0,-0.25,0.10400000000000001,0.869,0.632,"assessments: 2 of 1 assessments submitted, 1 late (typical student: 0.9 submitted)"
+508326,FFF,2013J,28,train,0.6247,True,1,0.065,-0.28700000000000003,0.35100000000000003,0.632,"engagement: 276 clicks over 14 active days (typical student: 358 clicks, 15 days)"
+603931,FFF,2013J,28,train,0.5397000000000001,True,1,-1.007,0.216,0.5700000000000001,0.632,"assessments: 1 of 1 assessments submitted, 0 late (typical student: 0.9 submitted)"
+2523035,FFF,2013J,28,train,0.5812,True,0,0.23900000000000002,-0.329,0.037,0.632,"engagement: 236 clicks over 14 active days (typical student: 358 clicks, 15 days)"
+633397,FFF,2014B,28,train,0.5740000000000001,True,1,0.444,-0.622,0.095,0.632,"engagement: 107 clicks over 7 active days (typical student: 358 clicks, 15 days)"
+590593,GGG,2013J,28,train,0.4874,True,0,0.593,0.533,0.397,-1.322,"engagement: 130 clicks over 5 active days (typical student: 358 clicks, 15 days) | assessments: 0 of 0 assessments submitted, 0 late (typical student: 0.9 submitted)"
+611195,GGG,2014B,28,train,0.3542,False,0,0.58,0.533,-0.14,-1.322,"engagement: 24 clicks over 6 active days (typical student: 358 clicks, 15 days) | assessments: 0 of 0 assessments submitted, 0 late (typical student: 0.9 submitted)"
+688050,GGG,2014J,28,test,0.3594,False,1,0.159,0.533,0.303,-1.322,"assessments: 0 of 0 assessments submitted, 0 late (typical student: 0.9 submitted) | engagement: 241 clicks over 12 active days (typical student: 358 clicks, 15 days)"
+396872,AAA,2013J,56,train,0.1865,False,0,-0.017,-0.248,-0.152,-0.733,
+2551220,AAA,2013J,56,test,0.2078,False,0,-0.425,0.342,-0.199,-0.733,"assessments: 1 of 2 assessments submitted, 0 late (typical student: 1.9 submitted)"
+85092,AAA,2014J,56,test,0.7655000000000001,True,0,0.558,1.605,0.077,-0.733,"assessments: 1 of 2 assessments submitted, 1 late (typical student: 1.9 submitted) | engagement: 199 clicks over 9 active days (typical student: 561 clicks, 24 days)"
+614059,CCC,2014B,56,train,0.664,True,0,0.10200000000000001,1.374,-0.454,-0.017,"assessments: 1 of 2 assessments submitted, 0 late (typical student: 1.9 submitted) | engagement: 177 clicks over 23 active days (typical student: 561 clicks, 24 days)"
+654817,CCC,2014J,56,train,0.5071,True,0,0.251,0.84,-0.722,-0.017,"assessments: 1 of 2 assessments submitted, 1 late (typical student: 1.9 submitted) | engagement: 300 clicks over 19 active days (typical student: 561 clicks, 24 days)"
+1855583,DDD,2014J,56,train,0.23270000000000002,False,0,-0.1,-1.012,-0.278,0.52,
+1762336,EEE,2013J,56,train,0.1537,False,1,-0.154,-1.282,-0.224,0.277,
+358966,GGG,2014J,56,train,0.1087,False,0,-0.34500000000000003,0.047,0.20400000000000001,-1.6880000000000002,"assessments: 1 of 0 assessments submitted, 0 late (typical student: 1.9 submitted)"
+692256,GGG,2014J,56,test,0.5162,True,0,0.558,1.17,0.34700000000000003,-1.6880000000000002,"assessments: 0 of 0 assessments submitted, 0 late (typical student: 1.9 submitted) | engagement: 83 clicks over 10 active days (typical student: 561 clicks, 24 days)"
+593846,AAA,2014J,56,train,0.1834,False,1,0.19,-0.171,-0.457,-0.733,"engagement: 512 clicks over 18 active days (typical student: 561 clicks, 24 days)"
+259750,DDD,2013B,56,test,0.9957,True,1,0.776,4.456,0.026000000000000002,0.52,"assessments: 0 of 4 assessments submitted, 0 late (typical student: 1.9 submitted) | engagement: 38 clicks over 4 active days (typical student: 561 clicks, 24 days)"
+495734,DDD,2013B,56,train,0.24710000000000001,False,0,-0.803,-0.04,-0.468,0.52,
+644956,DDD,2014J,56,train,0.3406,False,0,-0.251,-1.107,0.5,0.52,
+609868,FFF,2014B,56,train,0.8129000000000001,True,1,0.681,-0.42,0.678,0.852,"engagement: 665 clicks over 12 active days (typical student: 561 clicks, 24 days)"
+198956,BBB,2013B,56,test,0.0981,False,0,-0.805,-0.554,0.133,-0.67,
+684467,BBB,2014J,56,train,0.9440000000000001,True,1,0.929,2.813,0.077,-0.67,"assessments: 0 of 2 assessments submitted, 0 late (typical student: 1.9 submitted) | engagement: 0 clicks over 0 active days (typical student: 561 clicks, 24 days)"
+576191,CCC,2014B,56,train,0.6628000000000001,True,1,0.678,0.193,0.145,-0.017,"engagement: 117 clicks over 8 active days (typical student: 561 clicks, 24 days) | assessments: 2 of 2 assessments submitted, 1 late (typical student: 1.9 submitted)"
+475065,CCC,2014J,56,train,0.081,False,0,-1.072,-0.533,-0.484,-0.017,
+1561750,CCC,2014J,56,train,0.9083,True,1,-0.034,1.681,0.987,-0.017,"assessments: 1 of 2 assessments submitted, 1 late (typical student: 1.9 submitted)"
+576750,EEE,2013J,56,train,0.0687,False,0,-1.09,-0.708,-0.762,0.277,
+582768,EEE,2013J,56,train,0.6711,True,1,0.367,0.247,0.145,0.277,"engagement: 57 clicks over 13 active days (typical student: 561 clicks, 24 days) | assessments: 1 of 1 assessments submitted, 0 late (typical student: 1.9 submitted)"
+625067,EEE,2014B,56,train,0.081,False,0,-0.768,-1.091,-0.525,0.277,
+107028,FFF,2013J,56,train,0.5973,True,1,0.14,-0.766,0.492,0.852,"engagement: 382 clicks over 20 active days (typical student: 561 clicks, 24 days)"
+611396,FFF,2013J,56,train,0.7966000000000001,True,0,-0.177,0.916,0.097,0.852,"assessments: 1 of 2 assessments submitted, 0 late (typical student: 1.9 submitted)"
+634061,GGG,2014B,56,train,0.3451,False,0,0.589,1.17,-0.39,-1.6880000000000002,"assessments: 0 of 0 assessments submitted, 0 late (typical student: 1.9 submitted) | engagement: 105 clicks over 10 active days (typical student: 561 clicks, 24 days)"
+646572,GGG,2014J,56,train,0.3815,True,0,0.123,1.17,0.234,-1.6880000000000002,"assessments: 0 of 0 assessments submitted, 0 late (typical student: 1.9 submitted) | engagement: 512 clicks over 27 active days (typical student: 561 clicks, 24 days)"
+2606765,GGG,2014J,56,train,0.4908,True,0,0.89,1.17,-0.08700000000000001,-1.6880000000000002,"assessments: 0 of 0 assessments submitted, 0 late (typical student: 1.9 submitted) | engagement: 4 clicks over 1 active days (typical student: 561 clicks, 24 days)"
+444408,BBB,2013B,56,train,0.7784000000000001,True,1,0.335,0.896,1.018,-0.67,"assessments: 1 of 3 assessments submitted, 0 late (typical student: 1.9 submitted) | engagement: 381 clicks over 18 active days (typical student: 561 clicks, 24 days)"
+405945,BBB,2013J,56,test,0.4277,True,0,0.548,-0.219,0.373,-0.67,"engagement: 469 clicks over 16 active days (typical student: 561 clicks, 24 days)"
+620694,BBB,2014B,56,train,0.3421,False,0,0.614,-0.384,0.11,-0.67,"engagement: 51 clicks over 9 active days (typical student: 561 clicks, 24 days)"
+358204,BBB,2014J,56,train,0.2353,False,0,-1.267,0.593,0.488,-0.67,"assessments: 2 of 2 assessments submitted, 0 late (typical student: 1.9 submitted)"
+612814,CCC,2014B,56,test,0.09970000000000001,False,0,-0.644,-1.042,-0.17400000000000002,-0.017,
+555408,DDD,2013B,56,test,0.5277000000000001,True,1,0.099,0.332,-0.518,0.52,"assessments: 4 of 4 assessments submitted, 2 late (typical student: 1.9 submitted) | engagement: 158 clicks over 19 active days (typical student: 561 clicks, 24 days)"
+679258,GGG,2014J,56,train,0.6578,True,1,0.929,1.17,0.5640000000000001,-1.6880000000000002,"assessments: 0 of 0 assessments submitted, 0 late (typical student: 1.9 submitted) | engagement: 0 clicks over 0 active days (typical student: 561 clicks, 24 days)"
+229361,AAA,2013J,56,train,0.0623,False,0,-0.5740000000000001,-0.859,-0.222,-0.733,
+561640,BBB,2013J,56,test,0.1285,False,0,0.599,-0.996,-0.524,-0.67,"engagement: 232 clicks over 12 active days (typical student: 561 clicks, 24 days)"
+88340,BBB,2014B,56,train,0.4445,True,1,0.313,-0.244,0.7010000000000001,-0.67,"engagement: 152 clicks over 17 active days (typical student: 561 clicks, 24 days)"
+688144,BBB,2014J,56,train,0.5312,True,1,0.891,-0.28500000000000003,0.512,-0.67,"engagement: 2 clicks over 1 active days (typical student: 561 clicks, 24 days)"
+532718,DDD,2013B,56,test,0.5871000000000001,True,0,0.067,0.26,-0.17200000000000001,0.52,"assessments: 3 of 4 assessments submitted, 2 late (typical student: 1.9 submitted) | engagement: 390 clicks over 25 active days (typical student: 561 clicks, 24 days)"
+549334,DDD,2013B,56,train,0.9976,True,1,0.863,4.456,0.532,0.52,"assessments: 0 of 4 assessments submitted, 0 late (typical student: 1.9 submitted) | engagement: 16 clicks over 1 active days (typical student: 561 clicks, 24 days)"
+597459,EEE,2013J,56,train,0.1608,False,0,-0.132,-1.052,-0.423,0.277,
+634721,EEE,2014J,56,test,0.5838,True,0,-0.41500000000000004,0.898,-0.099,0.277,"assessments: 1 of 1 assessments submitted, 1 late (typical student: 1.9 submitted)"
+680267,EEE,2014J,56,train,0.5866,True,0,0.229,0.28600000000000003,-0.12,0.277,"assessments: 1 of 1 assessments submitted, 1 late (typical student: 1.9 submitted) | engagement: 264 clicks over 20 active days (typical student: 561 clicks, 24 days)"
+334259,AAA,2013J,56,test,0.5594,True,1,0.386,1.107,-0.197,-0.733,"assessments: 1 of 2 assessments submitted, 0 late (typical student: 1.9 submitted) | engagement: 270 clicks over 17 active days (typical student: 561 clicks, 24 days)"
+651635,EEE,2014J,56,train,0.1226,False,0,-0.518,-1.052,-0.352,0.277,
+633397,FFF,2014B,56,train,0.7898000000000001,True,1,0.524,0.228,0.043000000000000003,0.852,"engagement: 123 clicks over 12 active days (typical student: 561 clicks, 24 days) | assessments: 1 of 2 assessments submitted, 0 late (typical student: 1.9 submitted)"
+645174,CCC,2014J,56,test,0.3549,False,0,0.47200000000000003,-0.094,-0.636,-0.017,"engagement: 130 clicks over 14 active days (typical student: 561 clicks, 24 days)"
+569935,DDD,2013J,56,train,0.1625,False,0,-0.452,-0.974,-0.41100000000000003,0.52,
+605759,DDD,2014J,56,train,0.1874,False,0,-1.188,-0.63,0.154,0.52,
+400266,FFF,2013J,56,test,0.7428,True,0,-0.53,0.22,0.841,0.852,"assessments: 4 of 2 assessments submitted, 2 late (typical student: 1.9 submitted)"
+508326,FFF,2013J,56,train,0.7191000000000001,True,1,0.261,-0.152,0.301,0.852,"engagement: 341 clicks over 20 active days (typical student: 561 clicks, 24 days)"
+603931,FFF,2013J,56,train,0.425,True,1,-1.085,-0.228,0.482,0.852,
+2523035,FFF,2013J,56,train,0.5222,True,0,-0.005,-0.496,0.06,0.852,
+611195,GGG,2014B,56,train,0.3734,True,0,0.422,1.17,-0.099,-1.6880000000000002,"assessments: 0 of 0 assessments submitted, 0 late (typical student: 1.9 submitted) | engagement: 76 clicks over 13 active days (typical student: 561 clicks, 24 days)"
+168936,AAA,2013J,56,test,0.25520000000000004,False,0,0.465,-0.8210000000000001,0.341,-0.733,"engagement: 317 clicks over 13 active days (typical student: 561 clicks, 24 days)"
+258392,AAA,2013J,56,train,0.6152000000000001,True,0,0.251,1.068,0.20700000000000002,-0.733,"assessments: 1 of 2 assessments submitted, 0 late (typical student: 1.9 submitted) | engagement: 278 clicks over 20 active days (typical student: 561 clicks, 24 days)"
+287040,AAA,2014J,56,train,0.0685,False,0,-0.486,-0.649,-0.418,-0.733,
+353665,AAA,2014J,56,test,0.15430000000000002,False,0,0.308,-0.381,-0.5710000000000001,-0.733,"engagement: 159 clicks over 16 active days (typical student: 561 clicks, 24 days)"
+558444,CCC,2014B,56,train,0.9798,True,1,0.894,2.813,0.517,-0.017,"assessments: 0 of 2 assessments submitted, 0 late (typical student: 1.9 submitted) | engagement: 1 clicks over 1 active days (typical student: 561 clicks, 24 days)"
+572401,CCC,2014B,56,train,0.9550000000000001,True,1,0.771,2.675,-0.051000000000000004,-0.017,"assessments: 1 of 2 assessments submitted, 1 late (typical student: 1.9 submitted) | engagement: 61 clicks over 5 active days (typical student: 561 clicks, 24 days)"
+503100,DDD,2013B,56,test,0.9143,True,1,0.443,1.5670000000000002,0.16,0.52,"assessments: 4 of 4 assessments submitted, 4 late (typical student: 1.9 submitted) | engagement: 161 clicks over 11 active days (typical student: 561 clicks, 24 days)"
+566201,EEE,2013J,56,test,0.3168,False,0,-0.727,-0.441,0.446,0.277,
+587122,EEE,2014J,56,train,0.5764,True,1,0.789,-0.976,0.541,0.277,"engagement: 10 clicks over 4 active days (typical student: 561 clicks, 24 days)"
+544880,FFF,2013B,56,train,0.4711,True,1,-0.129,-0.725,0.209,0.852,
+590593,GGG,2013J,56,train,0.5192,True,0,0.592,1.17,0.325,-1.6880000000000002,"assessments: 0 of 0 assessments submitted, 0 late (typical student: 1.9 submitted) | engagement: 235 clicks over 9 active days (typical student: 561 clicks, 24 days)"
+688050,GGG,2014J,56,test,0.5027,True,1,0.5680000000000001,1.17,0.28300000000000003,-1.6880000000000002,"assessments: 0 of 0 assessments submitted, 0 late (typical student: 1.9 submitted) | engagement: 241 clicks over 12 active days (typical student: 561 clicks, 24 days)"
+396872,AAA,2013J,84,train,0.2441,False,0,0.317,-0.131,-0.17400000000000002,-0.795,"engagement: 438 clicks over 21 active days (typical student: 690 clicks, 31 days)"
+2551220,AAA,2013J,84,test,0.18580000000000002,False,0,-0.324,0.185,-0.196,-0.795,"assessments: 2 of 2 assessments submitted, 1 late (typical student: 2.5 submitted)"
+85092,AAA,2014J,84,test,0.8075,True,0,0.626,1.891,0.058,-0.795,"assessments: 1 of 2 assessments submitted, 1 late (typical student: 2.5 submitted) | engagement: 200 clicks over 10 active days (typical student: 690 clicks, 31 days)"
+614059,CCC,2014B,84,train,0.5998,True,0,0.092,1.455,-0.482,-0.313,"assessments: 2 of 3 assessments submitted, 1 late (typical student: 2.5 submitted) | engagement: 369 clicks over 32 active days (typical student: 690 clicks, 31 days)"
+654817,CCC,2014J,84,train,0.44820000000000004,True,0,0.183,0.9390000000000001,-0.669,-0.313,"assessments: 2 of 3 assessments submitted, 2 late (typical student: 2.5 submitted) | engagement: 337 clicks over 22 active days (typical student: 690 clicks, 31 days)"
+1855583,DDD,2014J,84,train,0.2008,False,0,0.045,-1.2570000000000001,-0.276,0.453,"engagement: 179 clicks over 32 active days (typical student: 690 clicks, 31 days)"
+1762336,EEE,2013J,84,train,0.1303,False,1,-0.491,-1.116,-0.157,0.212,
+358966,GGG,2014J,84,train,0.0886,False,0,-0.159,-0.911,0.162,-1.076,
+692256,GGG,2014J,84,test,0.2106,False,0,0.5650000000000001,-0.781,0.318,-1.076,"engagement: 88 clicks over 11 active days (typical student: 690 clicks, 31 days)"
+593846,AAA,2014J,84,train,0.17250000000000001,False,1,0.054,-0.045,-0.435,-0.795,"engagement: 658 clicks over 26 active days (typical student: 690 clicks, 31 days)"
+259750,DDD,2013B,84,test,0.9999,True,1,0.73,8.048,0.015,0.453,"assessments: 0 of 6 assessments submitted, 0 late (typical student: 2.5 submitted) | engagement: 38 clicks over 4 active days (typical student: 690 clicks, 31 days)"
+495734,DDD,2013B,84,train,0.15940000000000001,False,0,-1.055,-0.291,-0.423,0.453,
+644956,DDD,2014J,84,train,0.3121,False,0,-0.047,-1.299,0.45,0.453,
+609868,FFF,2014B,84,train,0.709,True,1,0.47100000000000003,-0.609,0.5730000000000001,0.801,"engagement: 742 clicks over 14 active days (typical student: 690 clicks, 31 days)"
+198956,BBB,2013B,84,test,0.0786,False,0,-0.23600000000000002,-1.415,0.138,-0.601,
+684467,BBB,2014J,84,train,0.9755,True,1,0.839,3.735,0.058,-0.601,"assessments: 0 of 2 assessments submitted, 0 late (typical student: 2.5 submitted) | engagement: 0 clicks over 0 active days (typical student: 690 clicks, 31 days)"
+576191,CCC,2014B,84,train,0.7878000000000001,True,1,0.621,1.284,0.067,-0.313,"assessments: 2 of 3 assessments submitted, 1 late (typical student: 2.5 submitted) | engagement: 117 clicks over 8 active days (typical student: 690 clicks, 31 days)"
+475065,CCC,2014J,84,train,0.0912,False,0,-0.7000000000000001,-0.46900000000000003,-0.47000000000000003,-0.313,
+1561750,CCC,2014J,84,train,0.8982,True,1,0.126,1.749,0.963,-0.313,"assessments: 2 of 3 assessments submitted, 2 late (typical student: 2.5 submitted) | engagement: 499 clicks over 32 active days (typical student: 690 clicks, 31 days)"
+576750,EEE,2013J,84,train,0.0618,False,0,-0.842,-1.026,-0.718,0.212,
+582768,EEE,2013J,84,train,0.8472000000000001,True,1,0.361,1.448,0.039,0.212,"assessments: 1 of 2 assessments submitted, 0 late (typical student: 2.5 submitted) | engagement: 77 clicks over 15 active days (typical student: 690 clicks, 31 days)"
+625067,EEE,2014B,84,train,0.0814,False,0,-0.466,-1.303,-0.52,0.212,
+107028,FFF,2013J,84,train,0.634,True,1,0.45,-0.8270000000000001,0.47200000000000003,0.801,"engagement: 387 clicks over 21 active days (typical student: 690 clicks, 31 days)"
+611396,FFF,2013J,84,train,0.311,False,0,-0.982,-0.279,0.01,0.801,
+634061,GGG,2014B,84,train,0.10650000000000001,False,0,0.389,-0.723,-0.37,-1.076,"engagement: 159 clicks over 12 active days (typical student: 690 clicks, 31 days)"
+646572,GGG,2014J,84,train,0.1598,False,0,0.14100000000000001,-0.5680000000000001,0.19,-1.076,"engagement: 517 clicks over 31 active days (typical student: 690 clicks, 31 days)"
+2606765,GGG,2014J,84,train,0.46,True,0,0.801,0.498,-0.036000000000000004,-1.076,"engagement: 4 clicks over 1 active days (typical student: 690 clicks, 31 days) | assessments: 1 of 1 assessments submitted, 0 late (typical student: 2.5 submitted)"
+444408,BBB,2013B,84,train,0.44370000000000004,True,1,0.373,-0.64,0.989,-0.601,"engagement: 429 clicks over 23 active days (typical student: 690 clicks, 31 days)"
+405945,BBB,2013J,84,test,0.5252,True,0,0.853,-0.202,0.398,-0.601,"engagement: 629 clicks over 22 active days (typical student: 690 clicks, 31 days)"
+620694,BBB,2014B,84,train,0.3806,True,0,0.528,-0.191,0.125,-0.601,"engagement: 67 clicks over 12 active days (typical student: 690 clicks, 31 days)"
+358204,BBB,2014J,84,train,0.36150000000000004,True,0,-0.897,0.807,0.46900000000000003,-0.601,"assessments: 2 of 2 assessments submitted, 0 late (typical student: 2.5 submitted)"
+612814,CCC,2014B,84,test,0.0838,False,0,-0.429,-1.143,-0.16,-0.313,
+555408,DDD,2013B,84,test,0.49460000000000004,True,1,0.03,0.292,-0.45,0.453,"assessments: 6 of 6 assessments submitted, 3 late (typical student: 2.5 submitted) | engagement: 200 clicks over 26 active days (typical student: 690 clicks, 31 days)"
+679258,GGG,2014J,84,train,0.932,True,1,0.855,2.657,0.528,-1.076,"assessments: 0 of 1 assessments submitted, 0 late (typical student: 2.5 submitted) | engagement: 0 clicks over 0 active days (typical student: 690 clicks, 31 days)"
+229361,AAA,2013J,84,train,0.08610000000000001,False,0,-0.269,-0.8130000000000001,-0.138,-0.795,
+561640,BBB,2013J,84,test,0.10260000000000001,False,0,0.40800000000000003,-1.17,-0.459,-0.601,"engagement: 287 clicks over 14 active days (typical student: 690 clicks, 31 days)"
+88340,BBB,2014B,84,train,0.6435000000000001,True,1,0.274,0.641,0.624,-0.601,"assessments: 4 of 5 assessments submitted, 2 late (typical student: 2.5 submitted) | engagement: 177 clicks over 20 active days (typical student: 690 clicks, 31 days)"
+688144,BBB,2014J,84,train,0.498,True,1,0.8150000000000001,-0.327,0.452,-0.601,"engagement: 2 clicks over 1 active days (typical student: 690 clicks, 31 days)"
+532718,DDD,2013B,84,test,0.3057,False,0,0.082,-0.842,-0.167,0.453,"engagement: 438 clicks over 32 active days (typical student: 690 clicks, 31 days)"
+597459,EEE,2013J,84,train,0.1628,False,0,-0.088,-1.009,-0.406,0.212,
+634721,EEE,2014J,84,test,0.5159,True,0,-0.076,0.334,-0.06,0.212,"assessments: 2 of 2 assessments submitted, 1 late (typical student: 2.5 submitted)"
+680267,EEE,2014J,84,train,0.3781,True,0,0.133,-0.391,-0.105,0.212,"engagement: 393 clicks over 27 active days (typical student: 690 clicks, 31 days)"
+334259,AAA,2013J,84,test,0.6389,True,1,0.402,1.491,-0.18,-0.795,"assessments: 1 of 2 assessments submitted, 0 late (typical student: 2.5 submitted) | engagement: 273 clicks over 19 active days (typical student: 690 clicks, 31 days)"
+651635,EEE,2014J,84,train,0.1203,False,0,-0.43,-1.111,-0.314,0.212,
+633397,FFF,2014B,84,train,0.8181,True,1,0.508,0.51,0.031,0.801,"assessments: 1 of 2 assessments submitted, 0 late (typical student: 2.5 submitted) | engagement: 131 clicks over 14 active days (typical student: 690 clicks, 31 days)"
+645174,CCC,2014J,84,test,0.2838,False,0,0.399,-0.057,-0.607,-0.313,"engagement: 236 clicks over 17 active days (typical student: 690 clicks, 31 days)"
+569935,DDD,2013J,84,train,0.16970000000000002,False,0,-0.391,-0.9410000000000001,-0.362,0.453,
+605759,DDD,2014J,84,train,0.221,False,0,-1.1400000000000001,-0.47500000000000003,0.248,0.453,
+400266,FFF,2013J,84,test,0.7912,True,0,0.011,-0.036000000000000004,0.903,0.801,"engagement: 1240 clicks over 35 active days (typical student: 690 clicks, 31 days)"
+508326,FFF,2013J,84,train,0.7543000000000001,True,1,0.401,-0.024,0.291,0.801,"engagement: 363 clicks over 22 active days (typical student: 690 clicks, 31 days)"
+603931,FFF,2013J,84,train,0.5138,True,1,-0.7020000000000001,-0.109,0.41200000000000003,0.801,
+2523035,FFF,2013J,84,train,0.276,False,0,-0.34700000000000003,-1.125,0.053,0.801,
+611195,GGG,2014B,84,train,0.21350000000000002,False,0,0.301,-0.057,-0.126,-1.076,"engagement: 140 clicks over 20 active days (typical student: 690 clicks, 31 days)"
+168936,AAA,2013J,84,test,0.227,False,0,0.402,-0.77,0.28500000000000003,-0.795,"engagement: 346 clicks over 16 active days (typical student: 690 clicks, 31 days)"
+258392,AAA,2013J,84,train,0.4834,True,0,0.34700000000000003,0.526,0.203,-0.795,"assessments: 2 of 2 assessments submitted, 1 late (typical student: 2.5 submitted) | engagement: 316 clicks over 22 active days (typical student: 690 clicks, 31 days)"
+287040,AAA,2014J,84,train,0.0922,False,0,-0.17400000000000002,-0.578,-0.392,-0.795,
+353665,AAA,2014J,84,test,0.19160000000000002,False,0,0.481,-0.28,-0.499,-0.795,"engagement: 159 clicks over 16 active days (typical student: 690 clicks, 31 days)"
+558444,CCC,2014B,84,train,0.9956,True,1,0.838,4.814,0.431,-0.313,"assessments: 0 of 3 assessments submitted, 0 late (typical student: 2.5 submitted) | engagement: 1 clicks over 1 active days (typical student: 690 clicks, 31 days)"
+572401,CCC,2014B,84,train,0.9851000000000001,True,1,0.718,4.164,-0.033,-0.313,"assessments: 1 of 3 assessments submitted, 1 late (typical student: 2.5 submitted) | engagement: 61 clicks over 5 active days (typical student: 690 clicks, 31 days)"
+503100,DDD,2013B,84,test,0.987,True,1,0.547,3.534,0.14400000000000002,0.453,"assessments: 4 of 6 assessments submitted, 4 late (typical student: 2.5 submitted) | engagement: 173 clicks over 14 active days (typical student: 690 clicks, 31 days)"
+566201,EEE,2013J,84,test,0.3028,False,0,-0.765,-0.37,0.436,0.212,
+587122,EEE,2014J,84,train,0.45790000000000003,True,1,0.6930000000000001,-1.291,0.5640000000000001,0.212,"engagement: 10 clicks over 4 active days (typical student: 690 clicks, 31 days)"
+544880,FFF,2013B,84,train,0.6225,True,1,0.531,-0.664,0.178,0.801,"engagement: 857 clicks over 28 active days (typical student: 690 clicks, 31 days)"
+590593,GGG,2013J,84,train,0.2205,False,0,0.442,-0.5680000000000001,0.28600000000000003,-1.076,"engagement: 286 clicks over 14 active days (typical student: 690 clicks, 31 days)"
+688050,GGG,2014J,84,test,0.24,False,1,0.56,-0.5680000000000001,0.278,-1.076,"engagement: 245 clicks over 13 active days (typical student: 690 clicks, 31 days)"
