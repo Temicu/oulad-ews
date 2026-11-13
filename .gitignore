@@ -1,21 +1,46 @@
+# --- data: each person downloads OULAD and regenerates these ---
 data/raw/*
 data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+*.zip
+
+# --- Python environments and caches ---
 .venv/
 myvenv/
+venv/
 __pycache__/
+*.pyc
 .ipynb_checkpoints/
+
+# --- Spark leftovers ---
 spark-warehouse/
 metastore_db/
 derby.log
+
+# --- R leftovers ---
 .Rproj.user/
 .Rhistory
 .RData
 .Renviron
+
+# --- hosting: generated copy and account files ---
+deploy/
+rsconnect/
+
+# --- secrets ---
 .env
+
+# --- editor and operating system files ---
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+
+# --- scratch files from this project ---
 requirements-full.txt
-
-.vscode/
-
-.vscode/
+apply_tweaks.R
+tweak_app.py
+app/app_before_tweaks.R
+records.zip
