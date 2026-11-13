@@ -884,7 +884,7 @@ TOUR_JS <- r"---(
     { sel: '.controls', title: 'Choose what you are looking at',
       text: ['Start by choosing a module and a class session (one running of that module).',
              'Then pick a checkpoint. Week 4 gives the earliest warning but has the least evidence. By Week 12 the estimates are more reliable, because more work has been submitted.',
-             'Leave “Evaluation students only” on for the fairest picture of how well the alerts work.'] },
+             'Leave “Held-out test students only” on for the fairest picture of how well the alerts work.'] },
     { sel: '.kpi-grid', title: 'Read the summary cards', text: cardsText },
     { sel: 'table.dataTable thead th:nth-child(2)', needsRow: true, title: 'Start at the top of the list',
       text: ['Students are listed by estimated risk, highest first. The score runs from 0 to 1: the higher it is, the more the student’s activity looks like students who went on to fail or withdraw.',
@@ -1051,7 +1051,7 @@ TOUR_JS <- r"---(
 )---"
 
 # ---- UI --------------------------------------------------------------------
-TIP_EVAL <- "Evaluation students are ones the prediction model did not see while it was learning. Showing only them gives the fairest picture of how well alerts work. Untick to include everyone."
+TIP_EVAL <- "Held-out test students are ones the prediction model did not see while it was learning. Showing only them gives the fairest picture of how well alerts work. Untick to include everyone."
 TIP_LEVEL <- "Students are flagged for attention when their estimated risk is at or above this level. Lowering it flags more students; raising it flags fewer."
 
 ui <- page_fillable(
@@ -1099,7 +1099,7 @@ ui <- page_fillable(
                              c("Week 4" = 28, "Week 8" = 56, "Week 12" = 84), inline = TRUE))),
           div(class = "ctrl-group",
             div(class = "switch-stack",
-              div(class = "switch-row", checkboxInput("test_only", tagList("Evaluation students only", info_tip(TIP_EVAL)), TRUE)),
+              div(class = "switch-row", checkboxInput("test_only", tagList("Held-out test students only", info_tip(TIP_EVAL)), TRUE)),
               div(class = "switch-row", checkboxInput("custom_thr", "Adjust alert level", FALSE))),
             conditionalPanel("input.custom_thr", div(class = "compact-slider",
               sliderInput("thr", label = tagList("Flag a student when estimated risk is at least", info_tip(TIP_LEVEL)), min = 0.05, max = 0.95, value = 0.38, step = 0.01))),
@@ -1124,7 +1124,7 @@ ui <- page_fillable(
                    p(class = "card-caption", "Each bar counts students with a similar estimated risk. The dashed line marks the alert level."),
                    plotOutput("dist", height = 340)),
               card(card_header("Alerts and outcomes by checkpoint"),
-                   p(class = "card-caption", "Counts include every student in this class session, not only evaluation students."),
+                   p(class = "card-caption", "Counts include every student in this class session, not only held-out test students."),
                    plotOutput("weeks", height = 340)))),
           nav_panel("Fairness",
             p(class = "page-intro", "Some estimates are shaped more by a student's background than by their activity and assessments. Review those alerts with extra care."),
@@ -1239,7 +1239,7 @@ server <- function(input, output, session) {
                   ifelse(n_prev == 0, "New",
                     ifelse(n_prev == length(earlier), "Persistent", "Returning")))
     if (input$test_only) d <- d[which(d$split == "test"), ]
-    validate(need(nrow(d) > 0, "No students at this checkpoint. Try another checkpoint or untick “Evaluation students only”."))
+    validate(need(nrow(d) > 0, "No students at this checkpoint. Try another checkpoint or untick “Held-out test students only”."))
     d[order(-d$risk_score), ]
   })
   shown <- reactive({
@@ -1269,7 +1269,7 @@ server <- function(input, output, session) {
     d <- cur()
     threshold <- if (input$custom_thr) input$thr else if (any(d$flagged)) min(d$risk_score[d$flagged]) else NA_real_
     div(class = "filter-badges",
-        pill(if (input$test_only) "Evaluation students" else "All students", "pill-accent"),
+        pill(if (input$test_only) "Held-out test students" else "All students", "pill-accent"),
         span(title = "Students are flagged for attention when their estimated risk is at or above this level.",
              pill(if (is.na(threshold)) "No alerts" else sprintf("Alert level: risk ≥ %.2f", threshold), "pill-neutral")))
   })
@@ -1289,7 +1289,7 @@ server <- function(input, output, session) {
           div(class = "kpi-hint", hint), extra, foot(chip))
     met <- !is.na(current$recall) && current$recall >= .75
     goal_card <- div(class = paste("card kpi-card", if (!intro) "no-intro"), style = "--i:4",
-      div(class = "kpi-label", "Detection goal", info_tip("Our aim is for alerts to reach at least 75% of the students who are later recorded as at risk.")),
+      div(class = "kpi-label", "Detection goal", info_tip("Our aim is for alerts to reach at least 75% of the students who are later recorded as at risk (a recall of at least 75%).")),
       div(class = "kpi-value", "75%"),
       div(class = "goal",
       div(class = "goal-track", role = "img",
@@ -1302,17 +1302,17 @@ server <- function(input, output, session) {
     div(class = "kpi-grid",
       kpi_card("Students monitored", "The number of students included in the current view.",
                format(current$students, big.mark = ","),
-               if (input$test_only) "Evaluation students in this class session" else "All students in this class session",
+               if (input$test_only) "Held-out test students in this class session" else "All students in this class session",
                delta_chip(current$students, prev("students"), first = first), 0, "students", raw = current$students),
       kpi_card("Students needing attention", "Students whose estimated risk is at or above the alert level. This is an estimate to help you decide who to look at first, not a confirmed outcome.",
                format(current$flagged, big.mark = ","),
                sprintf("%s of students monitored", pct(current$flagged / max(current$students, 1))),
                delta_chip(current$flagged, prev("flagged"), first = first), 1, "flagged", raw = current$flagged),
-      kpi_card("Accuracy of alerts", "Of the students who were flagged at this checkpoint, the share who were later recorded as at risk (final result Fail or Withdrawn). Based on past outcomes.",
+      kpi_card("Accuracy of alerts", "Of the students who were flagged at this checkpoint, the share who were later recorded as at risk (final result Fail or Withdrawn). Based on past outcomes. (Also called precision.)",
                pct(current$precision), "Flagged students who were recorded as at risk",
                delta_chip(current$precision, prev("precision"), TRUE, good_up = TRUE, first = first), 2, "precision",
                raw = if (is.na(current$precision)) NA else 100 * current$precision, fmt = "pct"),
-      kpi_card("Students identified early", "Of all students later recorded as at risk (final result Fail or Withdrawn), the share who already had an alert at this checkpoint.",
+      kpi_card("Students identified early", "Of all students later recorded as at risk (final result Fail or Withdrawn), the share who already had an alert at this checkpoint. (Also called recall.)",
                pct(current$recall), "Students recorded as at risk who were flagged",
                delta_chip(current$recall, prev("recall"), TRUE, good_up = TRUE, first = first), 3, "recall",
                raw = 100 * current$recall, fmt = "pct"),
@@ -1353,7 +1353,7 @@ server <- function(input, output, session) {
       check.names = FALSE)
     datatable(out, selection = "single", rownames = FALSE, escape = FALSE,
               colnames = c(
-                th_tip("Matric / Student ID", "Student's matriculation or admission number."),
+                th_tip("Student ID", "Anonymised student identifier from the dataset."),
                 th_tip("Estimated risk", "A score from 0 to 1 showing how likely the model thinks it is that a student will struggle. Higher means more likely. It is an estimate, not a certainty."),
                 th_tip("Risk level", "High: estimated risk of 0.70 or more. Medium: flagged for attention, but below 0.70. Low: not flagged."),
                 th_tip("Alert status", "New: first alert at this checkpoint. Ongoing: flagged at every checkpoint so far. Returning: flagged before, but not at every checkpoint. No alert: not flagged."),
@@ -1393,7 +1393,7 @@ server <- function(input, output, session) {
       div(class = "drawer-scrim"),
       div(class = "student-drawer", role = "dialog", `aria-labelledby` = "drawer-title",
         div(class = "drawer-head",
-            div(div(class = "drawer-eyebrow", "Matric / Student ID"), h2(id = "drawer-title", class = "drawer-title", r$id_student)),
+            div(div(class = "drawer-eyebrow", "Student ID"), h2(id = "drawer-title", class = "drawer-title", r$id_student)),
             actionButton("close_detail", svg_icon("close", 18, 2), class = "drawer-close", `aria-label` = "Close student details", title = "Close (Esc)")),
         div(class = "drawer-meta", sprintf("Estimated risk %.2f at %s", r$risk_score, week_label(r$cutoff_day)), status_pill(r$status)),
         div(class = "detail-stats",
@@ -1526,7 +1526,7 @@ server <- function(input, output, session) {
       geom_line(linewidth = 1) + geom_point(size = 3) +
       scale_x_continuous(breaks = c(28, 56, 84), labels = week_axis) +
       scale_colour_manual(values = c(p$ok, p$gold, p$slate, p$deep)[seq_along(unique(m$model))], name = NULL) +
-      labs(x = NULL, y = "AUC on evaluation students") + plot_theme(p)
+      labs(x = NULL, y = "AUC on held-out test students") + plot_theme(p)
   }, bg = "transparent")
   output$perf_tbl <- renderTable({
     m <- get_mets(); m[] <- lapply(m, function(x) if (is.numeric(x)) round(x, 3) else x)

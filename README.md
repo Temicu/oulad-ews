@@ -6,6 +6,10 @@ Data: Open University Learning Analytics Dataset (OULAD), CC BY 4.0. Cite as Kuz
 
 Authors: [add names]. Course: [add course]. Date: [add date].
 
+Live demo (public, exported data only): https://studentsatriskclarity.shinyapps.io/early-warning-dashboard/
+
+
+
 ## What it does
 
 1. Builds features per student at three checkpoints (day 28, 56, 84), using only records dated up to the cutoff and removing students who had already left.
