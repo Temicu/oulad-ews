@@ -4,10 +4,11 @@ A big-data pipeline that predicts which students will fail or withdraw, using on
 
 Data: Open University Learning Analytics Dataset (OULAD), CC BY 4.0. Cite as Kuzilek, Hlosta & Zdrahal (2017), *Scientific Data*, 4, 170171, https://doi.org/10.1038/sdata.2017.171.
 
-Authors: [add names]. Course: [add course]. Date: [add date].
+Author: Onilede Temidayo. Course: DTS 301. Date: 13-09-2026. 
 
 Live demo (public, exported data only): https://studentsatriskclarity.shinyapps.io/early-warning-dashboard/
 
+<img src="screenshots/dashboard_overview.png" alt="Dashboard overview" width="800">
 
 
 ## What it does
@@ -58,12 +59,16 @@ Then start the dashboard from the project folder:
 & "C:\Program Files\R\R-4.6.1\bin\Rscript.exe" -e "shiny::runApp('app', launch.browser=TRUE)"
 ```
 
+<img src="screenshots/student_panel.png" alt="student panel" width="800">
+
 ## Headline results
 
 - AUC on held-out students rises from about 0.77 at week 4 to 0.83 at week 12 (logistic regression and random forest perform almost identically).
 - Trained on 2013 and tested on 2014, AUC falls by no more than 0.015.
 - At the chosen thresholds, about three in four at-risk students are caught at 62% to 68% precision. Recall varies widely by module.
 - Error rates differ between groups (gender, disability, deprivation band). See the report for details and limitations.
+
+<img src="reports/fig1_auc_by_checkpoint.png" alt="AUC by checkpoint for both models" width="800">
 
 ## Notes
 
